@@ -396,4 +396,13 @@ li span{
 		text-align: center;
 		display: block;
 	}
+	.header .texto {
+	  	right: 30px;
+	}
+	.header .texto .borde {
+	  	margin: 10px -30px 10px 100px;
+	}
+	.header .texto .cree span {
+	  	font-size: 30px;
+	}
 }
