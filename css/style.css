@@ -405,4 +405,11 @@ li span{
 	.header .texto .cree span {
 	  	font-size: 30px;
 	}
+	.centerFixed .text{
+		text-align: center;
+	}
+	.centerFixed .title{
+		text-align: center;
+		padding-left: 0;
+	}
 }
