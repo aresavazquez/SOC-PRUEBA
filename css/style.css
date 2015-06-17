@@ -388,4 +388,12 @@ li span{
   		text-align: center;
   		right: 0;
 	}
+	.subtitle{
+		text-align: center;
+		font-size: 32px;
+	}
+	li span{
+		text-align: center;
+		display: block;
+	}
 }
