@@ -1,0 +1,391 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Museo100-Regular';
+}
+body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #41546e;
+}
+.header{
+	background: url(../imgs/header.png) no-repeat;
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background-size: cover;
+}
+.nav-header{
+	 width: 100%;
+  	background: url(../imgs/barra1.png);
+  	background-size: contain;
+  	height: 60px; 
+}
+ .header .texto{
+	 position: absolute;
+  	right: 100px;
+  	text-align: right;
+  	padding-top: 45px;
+}
+ .header .texto .cree{
+	font-size: 45px;
+	line-height: 35px;
+	color: #41546e;
+	padding-top: 20px;
+	font-family: 'MuseoSans';
+}
+ .header .texto .cree span{
+ 	font-family: Museo100-Regular;
+ 	font-size: 38px;
+ }
+.header .texto .borde{
+  border: 2px solid #1dafec;
+  margin: 10px -100px 10px 100px;
+}
+.header .texto .nosotros{
+	font-size: 20px;
+  	color: #1dafec;
+  	font-family: Museo100-Regular;
+}
+.header .texto .ayuda{
+	font-size: 13px;
+}
+.nav-header nav{
+	width: 80%;
+	margin: auto;
+}
+.nav-header nav img{
+	position: absolute;
+	margin-top: 5px;
+}
+.nav-header nav ul{
+	display: flex;
+  	color: #fff;
+  	justify-content: space-around;
+  	width: 400px;
+  	margin: auto;
+  	font-size: 16px;
+  	list-style: none;
+  	padding-top: 20px;
+}
+.nav-header nav ul li{
+	font-family: Museo100-Regular;
+}
+.nav-header nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.h1-header{
+	position: absolute;
+  	bottom: 0;
+  	background: url(../imgs/barra1.png);
+  	height: 60px;
+  	width: 100%;
+  	background-size: contain;
+}
+.h1-header h1{
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Museo500-Regular';
+}
+.body{
+	width: 100%;
+	position: relative;
+}
+.one{
+	width: 100%;
+}
+.two{
+	width: 100%;
+	background: url(../imgs/degradado.png) no-repeat center;
+	background-size: cover;
+}
+.three{
+	background-color: #41546e;
+  	width: 100%;
+  	margin-top: -1px;
+  	position: relative;
+}
+.three .centerFixed{
+	width: 70%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0;
+}
+ .body .centerFixed{
+  width: 65%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  background-color: #fff;
+  padding: 30px;
+}
+.centerFixed .title{
+	color: #1dafec;
+	font-size: 30px;
+	padding-bottom: 30px;
+	padding-left: 35px;
+}
+.centerFixed .imagenes{
+	display: flex;
+  	justify-content: space-around;
+  	list-style: none;
+  	padding-top: 30px;
+  	height: auto;
+  	position: relative;
+}
+.centerFixed ul{
+	display: flex;
+  	justify-content: space-around;
+  	list-style: none;
+  	padding-top: 30px;
+  	height: 230px;
+  	position: relative;
+}
+.centerFixed .form{
+	width: 50%;
+}
+.subtitle{
+	color: #1dafec;
+  	font-size: 20px;
+  	border-top: 4px solid #1dafec;
+  	padding-top: 20px;
+}
+li span{
+	font-size: 14px;
+}
+.centerFixed ul li{
+	width: 28%;
+}
+.centerFixed ul li .photo{
+	width: 90%;
+}
+.centerFixed ul li .icon{
+	width: 100px;
+  	margin-top: 30px;
+  	position: absolute;
+  	bottom: 0;
+  	margin-left: 55px;
+}
+.centerFixed .text{
+	width: 90%;
+  	margin: auto;
+  	font-size: 18px;
+}
+ .centerFixed .form .contact{
+	color: #fff;
+  	font-size: 20px;
+  	background-color: #313f52;
+  	padding: 10px;
+}
+.centerFixed .formMapa{
+  	width: 100%;
+  	display: flex;
+  	justify-content: center;
+}
+.centerFixed .formMapa .mapa{
+	width: 50%;
+	background: url(../imgs/degradado.png);
+  	background-size: contain;
+  	position: relative;
+}
+.centerFixed .formMapa .mapa p{
+	color: #fff;
+  	position: absolute;
+  	bottom: 20px;
+  	right: 20px;
+  	text-align: right;
+}
+.centerFixed .formMapa .mapa-img {
+	width: 100%;
+}
+.form input{
+	position: relative;
+	display: block;
+	width: 46%;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.form .absolute{
+	float: left;
+}
+.form textarea{
+	position: relative;
+	display: block;
+	width: 95%;
+	padding: 10px;
+	margin-top: 15px;
+	height: 100px;
+}
+.form button{
+  	background-color: #1dafec;
+  	border: none;
+  	color: #fff;
+  	padding: 10px;
+  	font-size: 16px;
+  	width: 100px;
+  	margin-top: 15px;
+  	margin-left: 71%;
+}
+.form button:hover{
+	background: #fff;
+	color: #41546e;
+}
+.form .place{
+	color: #fff;
+	font-size: 16px;
+	text-align: right;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+.form .place span{
+	color: #1dafec;
+}
+.form .legend{
+	color: #fff;
+	font-size: 10px;
+	text-align: right;
+	padding: 10px 20px 20px;
+}
+.formMapa .form img{
+	float: left;
+}
+@media (max-width: 1024px){
+	.form button {
+	  	margin-left: 67%;
+	}
+	.centerFixed ul li .icon {
+	  	margin-left: 30px;
+	}
+	.three .centerFixed {
+  		width: 71%;
+  	}
+  	.nav-header nav ul {
+  		width: 300px;
+  	}
+  	.nav-header {
+  		height: 85px;
+  	}
+  	.nav-header nav img {
+	  	position: relative;
+	  	margin: auto;
+	  	display: block;
+	}
+	.nav-header nav ul {
+	  	padding-top: 5px;
+	  	font-size: 14px;
+	}
+	.nav-header nav {
+	  	width: 100%;
+	}
+}
+@media (max-width: 768px){
+	.nav-header nav ul {
+  		width: 300px;
+  	}
+  	.form button {
+	  	margin-left: 58%;
+	}
+	.centerFixed ul li .icon {
+	  	margin-left: 0px;
+	}
+	.centerFixed ul {
+  		height: 260px;
+	}
+	.three .centerFixed {
+  		width: 73%;
+  	}
+}
+@media (max-width: 640px){
+	.centerFixed ul {
+	  	height: 275px;
+	}
+	.form button {
+  		margin-left: 52%;
+	}
+}
+@media (max-width: 640px){
+	.header {
+  		background: url(../imgs/header.png) no-repeat center;
+  	}
+  	.nav-header {
+  		height: 85px;
+  	}
+  	.nav-header nav img {
+	  	position: relative;
+	  	margin: auto;
+	  	display: block;
+	}
+	.nav-header nav ul {
+	  	padding-top: 5px;
+	  	font-size: 14px;
+	}
+	.nav-header nav {
+	  	width: 100%;
+	}
+	.body .centerFixed {
+	  	width: 100%;
+	  	padding: 30px 0px;
+	}
+	.header .texto .cree {
+	  	padding-top: 0px;
+	}
+	.centerFixed .imagenes{
+		display: block;
+	}
+	.centerFixed ul li .photo{
+		width: 200px;
+  		padding-top: 10px;
+  		margin: auto;
+  		display: block;
+	}
+	.centerFixed ul li {
+	  	width: 100%;
+	}
+	.centerFixed ul{
+		display: block;
+  		width: 80%;
+  		margin: auto;
+  		height: auto;
+	}
+	.centerFixed ul li .icon{
+		position: relative;
+		margin: auto;
+  		display: block;
+  		padding-bottom: 20px;
+	}
+	.centerFixed .formMapa{
+		display: block;
+	}
+	.centerFixed .form {
+	  	width: 100%;
+	}
+	.centerFixed .formMapa .mapa{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.formMapa .form img{
+		float: none;
+  		margin: auto;
+  		display: block;
+  		margin-top: 30px
+	}
+	.form .place{
+		text-align: center;
+	}
+	.form .legend{
+		text-align: center;
+	}
+	.centerFixed .formMapa .mapa p{
+		position: relative;
+  		bottom: 0;
+  		margin-top: 10px;
+  		text-align: center;
+  		right: 0;
+	}
+}
